@@ -1,0 +1,99 @@
+/* css variables */
+:root {
+  --primary-color: #6ab7de;
+  --secondary-color: #0c81bd;
+  --third-color: #915bfd;
+}
+
+/* styling toggle container */
+
+.outerdiv {
+  background-color: #cccbc9;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 2rem;
+  position: relative;
+  left: 80vw;
+  top: 0.5vh;
+  margin: 1rem;
+}
+.innerdiv {
+  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.togglename {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.9rem;
+  font-weight: 100;
+}
+
+/* styling all song div */
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#allSongs {
+  background-color: var(--primary-color);
+  display: inline-block;
+  width: 30%;
+  height: 34em;
+  border-radius: 2em;
+  padding: 1em;
+  margin: 1em;
+}
+
+#currentSong {
+  background-color: var(--primary-color);
+  display: inline-block;
+  width: 30%;
+  height: 34em;
+  border-radius: 2em;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: -2px -2px 10px 5px #8e7cad;
+}
+
+
+label{
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    
+}
+select{
+    border-radius: 0.4rem;
+    background-color: #3f708a;
+    text-align: center;
+}
+
+/* styling playlist */
+
+#Playlist {
+    background-color: var(--primary-color);
+    display: inline-block;
+    width: 30%;
+    height: 34em;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: -2px -2px 10px 5px #8e7cad;
+
+  }
+  #createbtn{
+    background-color:#915bfd;
+    color: white;
+    margin: 0.5rem;
+  }
+  #allPl{
+    overflow-y: scroll;
+    height: 20rem;
+
+  }
+  
+
+
+
